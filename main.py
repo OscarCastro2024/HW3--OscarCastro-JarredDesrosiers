@@ -22,6 +22,7 @@ def update_basket_a():
 util.disconnect_from_db(connection,cursor)
 
 return render_template('update_basket_a.html',log_html = record)
+
 @app.route('/api/unique')
 
 def unique():
