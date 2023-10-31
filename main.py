@@ -15,7 +15,7 @@ def update_basket_a():
   cursor,connection = util.connect_tp_db(username,password,host,port,database)
   record = util.run_and_commit_sql(cursor, connection,"INSERT into basket_a (a, fruit_a) values (5, 'Cherry');")
   if record == -1:
-    print('SOmething is wrong with the SQL command')
+    print('Something is wrong with the SQL command')
   else:
     print ('Success!')
     
