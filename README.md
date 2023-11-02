@@ -1,4 +1,4 @@
-HW3(CSCI 3700) | Oscar Castro abd Jarred Desrosiers
+HW3(CSCI 3700) | Oscar Castro and Jarred Desrosiers
 
 Description: This project shows how we can connect PostgreSQL with flash and show both the SQl results and select results in a HTML Table
 
